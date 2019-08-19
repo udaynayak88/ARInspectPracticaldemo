@@ -28,6 +28,7 @@ class PostListActivity : AppCompatActivity() {
     private var errorSnackbar: Snackbar? = null
 
 
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_post_list)
